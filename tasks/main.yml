@@ -3,7 +3,7 @@
 #
 - name: Installing docker
   package:
-         name: docker-ce
+         name: docker.io
          state: present
 
 - name: Installing docker-compose
